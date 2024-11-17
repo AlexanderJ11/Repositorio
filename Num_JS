@@ -1,0 +1,16 @@
+function ejercicio1(){
+  const num1 = 1, num2 = 50;
+  let resultado = document.getElementById("resp");
+  resultado.value = "";
+  if (num1 < num2){
+    for (let i = num1 + 1; i < num2; i++){
+      if (i % 2 === 1){
+      resultado.value += ${i} numero impar entre ${num1} y ${num2}\n
+      console.log(i + " numero impar entre " + num1 + " y " + num2);
+      }
+    }
+  }
+  else{
+    resultado.value = "El primer numero debe ser menor que el segundo numero"
+  }
+}
