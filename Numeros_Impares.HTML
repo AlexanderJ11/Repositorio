@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imprimir números impares</title>
+    <style>
+    </style>
+<body>
+  <main>
+      
+    <section>
+      <header>
+          <h2 class="titulo">Numeros impares entre 1 y 50</h2>
+      </header>
+      <br>
+      <article class="formContainer">
+        <form action="./numeros.html">
+          <div>
+            <label for="num1">Primer Numero</label>
+            <input id="num1" required type="text" placeholder="Ingresa un número" value="1" readonly>
+          </div>
+          <div>
+            <label for="num2">Segundo Numero</label>
+            <input id="num2" type="text" placeholder="Ingresa un número" required value="50" readonly>
+          </div>
+         
+          <div>
+            <label for="resp">Numeros impares:</label>
+            <textarea  id="resp" rows="5" cols="10">
+                
+            </textarea>
+          </div>
+          <div>
+            <button type="button" onclick="ejercicio1()">Aceptar</button>
+            <button type="submit">ir al home</button>
+            <button type="reset">Limpiar</button>
+          </div>
+        </form>
+      </article>
+    </section>
+  </main>
+  <script src="/proyecto_js/js/numeros.js"></script>
+</body>
+</html>
